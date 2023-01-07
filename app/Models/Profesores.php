@@ -11,7 +11,7 @@ class Profesores extends Model
 
     protected $table ='profesores';
 
-    protected $fillable = [
+    protected $guarded = [
         'Documento' ,
         'Nombre' ,
         'Apellido' ,
