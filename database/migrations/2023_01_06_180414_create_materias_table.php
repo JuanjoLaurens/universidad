@@ -19,7 +19,7 @@ class CreateMateriasTable extends Migration
             $table->string('nombre');
             $table->integer('creditos');
             $table->string('area_conocimiento');
-            $table->integer('opciones');
+            $table->string('opciones');
 
 
 

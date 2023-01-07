@@ -21,7 +21,7 @@ class MateriasFactory extends Factory
             'nombre' => $this->faker->name(),
             'creditos' => '10',
             'area_conocimiento' => 'Desarrollo',
-            'opciones' => $this->faker->randomElement($array = ['1', '2',]),
+            'opciones' => 'Obligatoria',
             'profesores_id' => $this->faker->randomElement($array = ['1', '2', '3','5', '10', '20','30', '7', '8']),
             'estudiantes_id' => $this->faker->randomElement($array = ['1', '2', '3','5', '10', '20','30', '7', '8']),
 
